@@ -1,0 +1,10 @@
+TARGET=main
+CC=gcc
+CFLAGS=
+
+OBJ=main.c
+SRC=
+HEADERS=
+
+$(TARGET):$(OBJ) $(HEADERS)
+	$(CC) $(OBJ) -o $(TARGET) $(CFLAGS)
